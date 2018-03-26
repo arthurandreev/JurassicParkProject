@@ -7,13 +7,15 @@ public abstract class Dinosaur {
     private String name;
     private TypeOfDinosaur type;
     private ArrayList<Food> belly;
+    private FoodType foodType;
     private int bellyCapacity;
 
-    public Dinosaur(String name, TypeOfDinosaur type, int bellyCapacity){
+    public Dinosaur(String name, TypeOfDinosaur type, int bellyCapacity, FoodType foodType){
         this.name = name;
         this.belly = new ArrayList<>();
         this.type = type;
         this.bellyCapacity = bellyCapacity;
+        this.foodType = foodType;
     }
 
     public String getName() {
