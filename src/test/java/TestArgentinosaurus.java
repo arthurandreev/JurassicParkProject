@@ -38,7 +38,7 @@ public class TestArgentinosaurus {
     }
 
     @Test
-    public void canGetFoodItemsInBelly() {
+    public void canFeedDinosaur() {
         argentinosaurus.feedDinosaur(food);
         assertEquals(1, argentinosaurus.getFoodItemsInBelly());
     }

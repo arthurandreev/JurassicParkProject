@@ -9,5 +9,4 @@ public class Argentinosaurus extends Dinosaur{
         super(name, type, bellyCapacity);
     }
 
-
 }
