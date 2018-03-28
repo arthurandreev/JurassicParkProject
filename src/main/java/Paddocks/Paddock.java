@@ -1,6 +1,6 @@
 package Paddocks;
 
-import Dinosaurs.Dinosaur;
+import Dinos.Dinosaur;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-import Dinosaurs.Dinosaur;
+import Dinos.Dinosaur;
 import Paddocks.Paddock;
 import Paddocks.CarnivorePaddock;
 import Paddocks.HerbivorePaddock;
@@ -45,6 +45,7 @@ public class Park {
             case CARNIVORE:
                 carnivorePaddock.addDinoToPaddock(dinosaur);
         }
+        //System.out.println(dinosaurType has been added to paddockType)
     }
 
     public void transferDinosaur(Dinosaur dinoToMove, Paddock paddockToMoveFrom, Paddock paddockToMoveTo){

@@ -1,4 +1,4 @@
-package Dinosaurs;
+package Dinos;
 
 public enum TypeOfDinosaur {
     HERBIVORE,

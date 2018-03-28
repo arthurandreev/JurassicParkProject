@@ -1,13 +1,11 @@
-import Dinosaurs.Dinosaur;
-import Dinosaurs.Spinosaurus;
-import Dinosaurs.TypeOfDinosaur;
+import Dinos.Dinosaur;
+import Dinos.Spinosaurus;
+import Dinos.TypeOfDinosaur;
 import Paddocks.CarnivorePaddock;
 import Paddocks.HerbivorePaddock;
 import Paddocks.Paddock;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -36,14 +34,14 @@ public class TestPark {
 
     @Test
     public void canAddDinoToPaddock(){
-        spinosaurus = new Spinosaurus("Steve", TypeOfDinosaur.HERBIVORE, 10);
+        spinosaurus = new Spinosaurus("Steve", TypeOfDinosaur.HERBIVORE, 10, 15);
         park.addDinosaurToPaddock(spinosaurus);
         assertEquals(1, park.getHerbivorePaddock().getPaddockCount());
     }
 
     @Test
     public void canTransferToPaddock(){
-        spinosaurus = new Spinosaurus("Dave", TypeOfDinosaur.HERBIVORE, 10);
+        spinosaurus = new Spinosaurus("Dave", TypeOfDinosaur.HERBIVORE, 10, 15);
         herbivorePaddock = new HerbivorePaddock("HerbPad1", 10);
         herbivorePaddock2 = new HerbivorePaddock("HerbPad2", 15);
         park.transferDinosaur(spinosaurus, herbivorePaddock, herbivorePaddock2);

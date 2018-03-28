@@ -1,6 +1,6 @@
-import Dinosaurs.Food;
-import Dinosaurs.Spinosaurus;
-import Dinosaurs.TypeOfDinosaur;
+import Dinos.Food;
+import Dinos.Spinosaurus;
+import Dinos.TypeOfDinosaur;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ public class TestSpinosaurus {
     @Before
     public void before(){
         food = new Food(5);
-        spinosaurus = new Spinosaurus("Bob", typeOfDinosaur.CARNIVORE, 15);
+        spinosaurus = new Spinosaurus("Bob", typeOfDinosaur.CARNIVORE, 15, 15);
     }
 
     @Test
@@ -39,7 +39,7 @@ public class TestSpinosaurus {
     @Test
     public void canGetFoodItemsInBelly(){
         spinosaurus.feedDinosaur(food);
-        assertEquals(5,  food.getFoodIntake());
+        assertEquals(5,  food.getNutritionValue());
     }
 
     @Test

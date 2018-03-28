@@ -1,6 +1,6 @@
-import Dinosaurs.Food;
-import Dinosaurs.Stegosaurus;
-import Dinosaurs.TypeOfDinosaur;
+import Dinos.Food;
+import Dinos.Stegosaurus;
+import Dinos.TypeOfDinosaur;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +17,7 @@ public class TestStegosaurus {
     @Before
     public void before(){
         food = new Food(5);
-        stegosaurus = new Stegosaurus("Nick", typeOfDinosaur.HERBIVORE, 15);
+        stegosaurus = new Stegosaurus("Nick", typeOfDinosaur.HERBIVORE, 15, 15);
     }
 
     @Test
@@ -39,7 +39,7 @@ public class TestStegosaurus {
     @Test
     public void canGetFoodItemsInBelly(){
         stegosaurus.feedDinosaur(food);
-        assertEquals(5,  food.getFoodIntake());
+        assertEquals(5,  food.getNutritionValue());
     }
 
     @Test

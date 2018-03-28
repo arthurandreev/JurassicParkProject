@@ -1,6 +1,6 @@
-import Dinosaurs.Argentinosaurus;
-import Dinosaurs.Food;
-import Dinosaurs.TypeOfDinosaur;
+import Dinos.Argentinosaurus;
+import Dinos.Food;
+import Dinos.TypeOfDinosaur;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,7 +18,7 @@ public class TestArgentinosaurus {
     @Before
     public void before() {
         food = new Food(5);
-        argentinosaurus = new Argentinosaurus("Steve", typeOfDinosaur.HERBIVORE, 10);
+        argentinosaurus = new Argentinosaurus("Steve", typeOfDinosaur.HERBIVORE, 10, 15);
     }
 
     @Test

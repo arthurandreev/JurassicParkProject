@@ -1,6 +1,6 @@
-import Dinosaurs.Food;
-import Dinosaurs.Triceratop;
-import Dinosaurs.TypeOfDinosaur;
+import Dinos.Food;
+import Dinos.Triceratop;
+import Dinos.TypeOfDinosaur;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +16,8 @@ public class TestTriceratop {
 
     @Before
     public void before(){
-        food = new Food(8);
-        triceratop = new Triceratop("Charlie", typeOfDinosaur.CARNIVORE, 15);
+        food = new Food(5);
+        triceratop = new Triceratop("Charlie", typeOfDinosaur.CARNIVORE, 15, 10);
 
     }
 
