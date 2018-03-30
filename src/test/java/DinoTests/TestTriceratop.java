@@ -1,5 +1,7 @@
+package DinoTests;
+
 import Dinos.Food;
-import Dinos.Stegosaurus;
+import Dinos.Triceratop;
 import Dinos.TypeOfDinosaur;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,63 +10,64 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class TestStegosaurus {
+public class TestTriceratop {
 
-    Stegosaurus stegosaurus;
+    Triceratop triceratop;
     TypeOfDinosaur typeOfDinosaur;
     Food food;
 
     @Before
     public void before(){
         food = new Food(5);
-        stegosaurus = new Stegosaurus("Nick", typeOfDinosaur.HERBIVORE, 15, 15);
+        triceratop = new Triceratop("Charlie", typeOfDinosaur.Carnivore, 15, 10, "Tricerator");
+
     }
 
     @Test
-    public void canGetName() {
-        assertEquals("Nick", stegosaurus.getName());
+    public void canGetName(){
+        assertEquals("Charlie", triceratop.getName());
     }
 
     @Test
     public void canSetName(){
-        stegosaurus.setName("Boris");
-        assertEquals("Boris", stegosaurus.getName());
+        triceratop.setName("Banki Moon");
+        assertEquals("Banki Moon", triceratop.getName());
     }
 
     @Test
     public void canGetType(){
-        assertEquals(typeOfDinosaur.HERBIVORE, stegosaurus.getType());
+        assertEquals(TypeOfDinosaur.Carnivore, triceratop.getType());
     }
 
     @Test
     public void canGetFoodItemsInBelly(){
-        stegosaurus.feedDinosaur(food);
-        assertEquals(5,  food.getNutritionValue());
+        triceratop.feedDinosaur(food);
+        assertEquals(1, triceratop.getFoodItemsInBelly());
     }
 
     @Test
     public void canGetBellyCapacity(){
-        assertEquals(15, stegosaurus.getBellyCapacity());
+        assertEquals(15, triceratop.getBellyCapacity());
     }
 
     @Test
     public void checkIfBellyIsEmpty(){
-        assertFalse(stegosaurus.bellyIsFull());
+        assertFalse(triceratop.bellyIsFull());
     }
 
     @Test
     public void checkIfBellyIsFull(){
         for(int i = 0; i < 15; i++){
-            stegosaurus.feedDinosaur(food);
+            triceratop.feedDinosaur(food);
         }
-        assertTrue(stegosaurus.bellyIsFull());
+        assertTrue(triceratop.bellyIsFull());
     }
 
     @Test
     public void checkIFLimitIs10ForBelly(){
         for(int i = 0; i < 17; i++){
-            stegosaurus.feedDinosaur(food);
+            triceratop.feedDinosaur(food);
         }
-        assertEquals(15, stegosaurus.getFoodItemsInBelly());
+        assertEquals(15, triceratop.getFoodItemsInBelly());
     }
 }

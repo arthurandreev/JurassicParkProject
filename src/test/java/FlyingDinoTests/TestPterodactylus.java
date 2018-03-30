@@ -1,3 +1,5 @@
+package FlyingDinoTests;
+
 import Dinos.Stegosaurus;
 import Dinos.TypeOfDinosaur;
 import FlyingDinos.Pterodactylus;
@@ -13,7 +15,7 @@ public class TestPterodactylus {
 
     @Before
     public void before(){
-        pterodactylus = new Pterodactylus("Bobby", 50, 10, 30);
+        pterodactylus = new Pterodactylus("Bobby", 50, 10, 30, "pterodactylus");
     }
 
     @Test
@@ -36,10 +38,5 @@ public class TestPterodactylus {
         assertEquals(30, pterodactylus.getWingSpan());
     }
 
-    @Test
-    public void canAttackDino() {
-        stegosaurus = new Stegosaurus("Luigi", typeOfDinosaur.CARNIVORE, 15, 20);
-        pterodactylus.attack(stegosaurus);
-        assertEquals(10, stegosaurus.getHealthPoints());
-    }
+
 }

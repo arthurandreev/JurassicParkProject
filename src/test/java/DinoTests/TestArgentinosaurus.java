@@ -1,3 +1,5 @@
+package DinoTests;
+
 import Dinos.Argentinosaurus;
 import Dinos.Food;
 import Dinos.TypeOfDinosaur;
@@ -18,7 +20,7 @@ public class TestArgentinosaurus {
     @Before
     public void before() {
         food = new Food(5);
-        argentinosaurus = new Argentinosaurus("Steve", typeOfDinosaur.HERBIVORE, 10, 15);
+        argentinosaurus = new Argentinosaurus("Steve", typeOfDinosaur.Herbivore, 10, 15, "Argentinosaurus");
     }
 
     @Test
@@ -34,14 +36,9 @@ public class TestArgentinosaurus {
 
     @Test
     public void canGetType(){
-        assertEquals(typeOfDinosaur.HERBIVORE, argentinosaurus.getType());
+        assertEquals(typeOfDinosaur.Herbivore, argentinosaurus.getType());
     }
 
-    @Test
-    public void canFeedDinosaur() {
-        argentinosaurus.feedDinosaur(food);
-        assertEquals(1, argentinosaurus.getFoodItemsInBelly());
-    }
 
     @Test
     public void canGetBellyCapacity() {

@@ -1,6 +1,6 @@
 package Dinos;
 
 public enum TypeOfDinosaur {
-    HERBIVORE,
-    CARNIVORE
+    Herbivore,
+    Carnivore
 }

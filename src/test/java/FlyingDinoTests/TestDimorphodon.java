@@ -1,4 +1,5 @@
-import Dinos.Dinosaur;
+package FlyingDinoTests;
+
 import Dinos.Spinosaurus;
 import Dinos.TypeOfDinosaur;
 import FlyingDinos.Dimorphodon;
@@ -15,7 +16,7 @@ public class TestDimorphodon {
 
     @Before
     public void before() {
-        dimorphodon = new Dimorphodon("Lost Soul", 50, 5, 50);
+        dimorphodon = new Dimorphodon("Lost Soul", 50, 5, 50, "Dimorphodon");
     }
 
     @Test
@@ -36,12 +37,5 @@ public class TestDimorphodon {
     @Test
     public void canGetWingSpan() {
         assertEquals(50, dimorphodon.getWingSpan());
-    }
-
-    @Test
-    public void canAttackDino() {
-        spinosaurus = new Spinosaurus("Bill", typeOfDinosaur.HERBIVORE, 15, 20);
-        dimorphodon.attack(spinosaurus);
-        assertEquals(15, spinosaurus.getHealthPoints());
     }
 }
