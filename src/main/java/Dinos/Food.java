@@ -2,17 +2,17 @@ package Dinos;
 
 public class Food {
 
-    private int nutritionValue;
-    public Food(int nutritionValue) {
-        this.nutritionValue = nutritionValue;
+    private FoodType foodtype;
 
+    public Food(FoodType foodType){
+        this.foodtype = foodType;
     }
 
-    public int getNutritionValue() {
-        return nutritionValue;
+    public String getDiet(){
+        return this.foodtype.getDiet();
     }
 
-    public void setNutritionValue(int nutritionValue) {
-        this.nutritionValue = nutritionValue;
+    public int getEnergy(){
+        return this.foodtype.getEnergy();
     }
 }

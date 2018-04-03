@@ -43,6 +43,7 @@ public abstract class Pterosaur {
         return wingSpan;
     }
 
+    //checks if dinosaur has more than 0 health points, if yes, deducts health points by attack value points and prints a message to the console. If health points are equal to zero, prints a message to the console. Else, prints a message to the console.
     public void attack(Dinosaur dinosaur) {
         if (dinosaur.getHealthPoints() > 0) {
             dinosaur.setHealthPoints(dinosaur.getHealthPoints() - attackValue);

@@ -13,24 +13,26 @@ public class TestPark {
     Park park;
     Dinosaur dinosaur;
     TypeOfDinosaur typeOfDinosaur;
-    Spinosaurus spinosaurus;
+    HerbieDino herbieDino;
+    HerbivorePaddock herbivorePaddock;
+    HerbivorePaddock herbivorePaddock2;
     Visitor visitor;
     Paddock paddocks;
     Visitor visitors;
-    HerbivorePaddock herbivorePaddock;
-    HerbivorePaddock herbivorePaddock2;
+    CarnieDino carnieDino;
     CarnivorePaddock carnivorePaddock;
     Pterodactylus pterodactylus;
-    Stegosaurus stegosaurus;
-    Tyrannosaurus tyrannosaurus;
     Food food;
+    FoodType foodType;
+    DinoList dinoKind;
 
 
     @Before
     public void before(){
         park = new Park(100);
-        spinosaurus = new Spinosaurus("Steve", TypeOfDinosaur.Herbivore, 10, 15, "Spinosaurus");
+        herbieDino = new HerbieDino("Steve", TypeOfDinosaur.Herbivore, 10, 15, 10, dinoKind.Tyrannosaurus);
         visitor = new Visitor("Dave", "Bountry hunter");
+        food = new Food(foodType.ANIMALS);
         }
 
     @Test
@@ -40,7 +42,7 @@ public class TestPark {
 
     @Test
     public void canAddDinoToPaddock(){
-        park.addDinosaurToPaddock(spinosaurus);
+        park.addDinosaurToPaddock(herbieDino);
         assertEquals(1, park.getHerbivorePaddock().getPaddockCount());
     }
 
@@ -48,22 +50,23 @@ public class TestPark {
     public void canTransferToPaddock(){
         herbivorePaddock = new HerbivorePaddock("HerbPad1", 10);
         herbivorePaddock2 = new HerbivorePaddock("HerbPad2", 15);
-        park.transferDinosaur(spinosaurus, herbivorePaddock, herbivorePaddock2);
+        park.transferDinosaur(herbieDino, herbivorePaddock, herbivorePaddock2);
         assertEquals(1, herbivorePaddock2.getPaddockCount());
     }
 
     @Test
     public void canFeedDinosaur() {
-        spinosaurus.feedDinosaur(food);
-        assertEquals(1, spinosaurus.getFoodItemsInBelly());
+        herbieDino.feedDinosaur(food);
+        assertEquals(1, herbieDino.getFoodItemsInBelly());
+        assertEquals(20, herbieDino.getEnergyLevel());
     }
 
     @Test
     public void flyingDinoCanAttackDino() {
-        stegosaurus = new Stegosaurus("Luigi", typeOfDinosaur.Carnivore, 15, 20, "Stegosaurus");
+        carnieDino = new CarnieDino("Luigi", typeOfDinosaur.Carnivore, 15, 20, 10, dinoKind.Stegosaurus);
         pterodactylus = new Pterodactylus("Pedro", 50, 10, 50, "Pterodactylus");
-        pterodactylus.attack(stegosaurus);
-        assertEquals(10, stegosaurus.getHealthPoints());
+        pterodactylus.attack(carnieDino);
+        assertEquals(10, carnieDino.getHealthPoints());
     }
 
     @Test

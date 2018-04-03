@@ -1,6 +1,7 @@
 package PaddockTests;
 
-import Dinos.Stegosaurus;
+import Dinos.DinoList;
+import Dinos.HerbieDino;
 import Dinos.TypeOfDinosaur;
 import Paddocks.HerbivorePaddock;
 import org.junit.Before;
@@ -11,13 +12,14 @@ import static org.junit.Assert.assertEquals;
 public class TestHerbivorePaddock {
 
     HerbivorePaddock herbivorePaddock;
-    Stegosaurus stegosaurus;
     TypeOfDinosaur typeOfDinosaur;
+    HerbieDino herbieDino;
+    DinoList dinoKind;
 
     @Before
     public void before(){
         herbivorePaddock = new HerbivorePaddock("CarnPaddock", 15);
-        stegosaurus = new Stegosaurus("Steve", typeOfDinosaur.Herbivore, 10, 20, "Stegosaurus");
+        herbieDino = new HerbieDino("Steve", typeOfDinosaur.Herbivore, 10, 20, 10, dinoKind.Tricerator);
     }
 
     @Test
@@ -27,17 +29,17 @@ public class TestHerbivorePaddock {
 
     @Test
     public void canAddDinoToPaddock(){
-        herbivorePaddock.addDinoToPaddock(stegosaurus);
-        herbivorePaddock.addDinoToPaddock(stegosaurus);
+        herbivorePaddock.addDinoToPaddock(herbieDino);
+        herbivorePaddock.addDinoToPaddock(herbieDino);
         assertEquals(2, herbivorePaddock.getPaddockCount());
     }
 
     @Test
     public void canRemoveDinoFromPaddock(){
-        herbivorePaddock.addDinoToPaddock(stegosaurus);
-        herbivorePaddock.addDinoToPaddock(stegosaurus);
-        herbivorePaddock.addDinoToPaddock(stegosaurus);
-        herbivorePaddock.removeDinoFromPaddock(stegosaurus);
+        herbivorePaddock.addDinoToPaddock(herbieDino);
+        herbivorePaddock.addDinoToPaddock(herbieDino);
+        herbivorePaddock.addDinoToPaddock(herbieDino);
+        herbivorePaddock.removeDinoFromPaddock(herbieDino);
         assertEquals(2, herbivorePaddock.getPaddockCount());
     }
 }

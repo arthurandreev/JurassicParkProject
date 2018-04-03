@@ -1,6 +1,5 @@
 package FlyingDinoTests;
 
-import Dinos.Stegosaurus;
 import Dinos.TypeOfDinosaur;
 import FlyingDinos.Pterodactylus;
 import org.junit.Before;
@@ -11,7 +10,6 @@ import static org.junit.Assert.assertEquals;
 public class TestPterodactylus {
     Pterodactylus pterodactylus;
     TypeOfDinosaur typeOfDinosaur;
-    Stegosaurus stegosaurus;
 
     @Before
     public void before(){

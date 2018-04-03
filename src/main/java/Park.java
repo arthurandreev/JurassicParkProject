@@ -73,6 +73,7 @@ public class Park {
         System.out.println("---------------------------------------------------------------------------------------------------");
     }
 
+    //transfers a dinosaur from one herbivore paddock to another herbivore paddock
     public void transferDinosaur(Dinosaur dinoToMove, Paddock paddockToMoveFrom, Paddock paddockToMoveTo){
         paddockToMoveFrom.removeDinoFromPaddock(dinoToMove);
         paddockToMoveTo.addDinoToPaddock(dinoToMove);
@@ -87,6 +88,7 @@ public class Park {
          return visitors.size() == parkCapacity;
     }
 
+    //checks in a visitor into the park, if park is not full, and prints a message to the console
     public void checkInVisitorToPark(Visitor visitor){
         if (!parkIsFull()){
             visitors.add(visitor);

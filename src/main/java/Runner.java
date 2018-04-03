@@ -4,11 +4,11 @@ import Paddocks.*;
 
 import java.util.concurrent.TimeUnit;
 
-
 public class Runner {
     public static void main(String[] args) {
-
-        Stegosaurus stegosaurus = new Stegosaurus("Steve", TypeOfDinosaur.Herbivore, 10, 15, "Stegosaurus");
+        Food meat = new Food(FoodType.ANIMALS);
+        Food veggie = new Food(FoodType.PLANTS);
+        HerbieDino herbieDino = new HerbieDino("Steve", TypeOfDinosaur.Herbivore, 10, 15, 10, DinoList.Tyrannosaurus);
         Pterodactylus pterodactylus = new Pterodactylus ("Luigi", 50, 5, 15, "Pterodactylus");
         Park park = new Park(100);
         HerbivorePaddock herbivorePaddock = new HerbivorePaddock("HerbiePad", 20);
@@ -16,14 +16,14 @@ public class Runner {
 
         park.checkInVisitorToPark(visitor);
         park.getWelcomeMessage();
-        park.addDinosaurToPaddock(stegosaurus);
+        park.addDinosaurToPaddock(herbieDino);
         pterodactylus.getName();
         pterodactylus.getSpeed();
         pterodactylus.getAttackValue();
-        pterodactylus.attack(stegosaurus);
-        pterodactylus.attack(stegosaurus);
-        pterodactylus.attack(stegosaurus);
-        pterodactylus.attack(stegosaurus);
+        pterodactylus.attack(herbieDino);
+        pterodactylus.attack(herbieDino);
+        pterodactylus.attack(herbieDino);
+        pterodactylus.attack(herbieDino);
         park.getGoodbyeMessage();
     }
 }
