@@ -81,7 +81,7 @@ public abstract class Dinosaur {
         }
     }
 
-    //calls bellyIsFull and printFoodEaten methods, adds food to belly array and increases energy level of dinosaur
+    //calls printFoodEaten method, adds food to belly and increases energy level of dinosaur
         public void feedDinosaur (Food food){
             if (!bellyIsFull()) {
                 printFoodEaten(food);

@@ -56,6 +56,7 @@ public class Park {
     }
 
     public void addDinosaurToPaddock(Dinosaur dinosaur) {
+//        switch case statement that calls getType method on dinosaur object to access TypeOfDinosaur Enum
         switch (dinosaur.getType()) {
             case Herbivore:
                 herbivorePaddock.addDinoToPaddock(dinosaur);
@@ -88,7 +89,7 @@ public class Park {
          return visitors.size() == parkCapacity;
     }
 
-    //checks in a visitor into the park, if park is not full, and prints a message to the console
+    //checks in a visitor into the park, if park is NOT full, and prints a message to the console
     public void checkInVisitorToPark(Visitor visitor){
         if (!parkIsFull()){
             visitors.add(visitor);

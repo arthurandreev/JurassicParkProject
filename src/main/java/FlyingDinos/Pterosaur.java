@@ -43,14 +43,16 @@ public abstract class Pterosaur {
         return wingSpan;
     }
 
-    //checks if dinosaur has more than 0 health points, if yes, deducts health points by attack value points and prints a message to the console. If health points are equal to zero, prints a message to the console. Else, prints a message to the console.
+    //checks if dinosaur has more than 0 health points, if yes, deducts health points by attack value points and prints a message to the console
     public void attack(Dinosaur dinosaur) {
         if (dinosaur.getHealthPoints() > 0) {
             dinosaur.setHealthPoints(dinosaur.getHealthPoints() - attackValue);
             System.out.println("Taking care of business: attacking " + dinosaur.getName() + " who has " + dinosaur.getHealthPoints() + " health points left!");
+//            If health points are equal to zero, prints a message to the console
             if (dinosaur.getHealthPoints() == 0) {
                 System.out.println(dinosaur.getName() + " took the hit and kicked the bucket!");
             }
+//            Else, prints a message to the console
         } else {
             System.out.println("Stop attacking " + dinosaur.getName() + ", you can't kill a ghost! He is already dead you doughnut!");
             System.out.println("---------------------------------------------------------------------------------------------------");

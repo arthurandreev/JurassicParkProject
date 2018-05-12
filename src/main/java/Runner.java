@@ -4,6 +4,7 @@ import Paddocks.*;
 
 import java.util.concurrent.TimeUnit;
 
+//runner class
 public class Runner {
     public static void main(String[] args) {
         Food meat = new Food(FoodType.ANIMALS);

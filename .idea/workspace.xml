@@ -3,50 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c75c46ea-2d48-4f2f-b9f1-568126faa03e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Argentinosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Dinosaur$1.class" afterPath="$PROJECT_DIR$/out/production/classes/Dinos/Dinosaur$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Dinosaur.class" afterPath="$PROJECT_DIR$/out/production/classes/Dinos/Dinosaur.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Food.class" afterPath="$PROJECT_DIR$/out/production/classes/Dinos/Food.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Spinosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Stegosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Triceratop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dinos/Tyrannosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FlyingDinos/Dimorphodon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/FlyingDinos/Pterosaur.class" afterPath="$PROJECT_DIR$/out/production/classes/FlyingDinos/Pterosaur.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Park.class" afterPath="$PROJECT_DIR$/out/production/classes/Park.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Runner.class" afterPath="$PROJECT_DIR$/out/production/classes/Runner.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinoTests/TestArgentinosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinoTests/TestSpinosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinoTests/TestStegosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinoTests/TestTriceratop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinoTests/TestTyrannosaurus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FlyingDinoTests/TestDimorphodon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/FlyingDinoTests/TestPterodactylus.class" afterPath="$PROJECT_DIR$/out/test/classes/FlyingDinoTests/TestPterodactylus.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PaddockTests/TestCarnivorePaddock.class" afterPath="$PROJECT_DIR$/out/test/classes/PaddockTests/TestCarnivorePaddock.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PaddockTests/TestHerbivorePaddock.class" afterPath="$PROJECT_DIR$/out/test/classes/PaddockTests/TestHerbivorePaddock.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestPark.class" afterPath="$PROJECT_DIR$/out/test/classes/TestPark.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Argentinosaurus.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java" afterPath="$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Food.java" afterPath="$PROJECT_DIR$/src/main/java/Dinos/Food.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Spinosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Stegosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Triceratop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dinos/Tyrannosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlyingDinos/Dimorphodon.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java" afterPath="$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Park.java" afterPath="$PROJECT_DIR$/src/main/java/Park.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Visitor.java" afterPath="$PROJECT_DIR$/src/main/java/Visitor.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinoTests/TestArgentinosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinoTests/TestSpinosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinoTests/TestStegosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinoTests/TestTriceratop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinoTests/TestTyrannosaurus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestDimorphodon.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestPterodactylus.java" afterPath="$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestPterodactylus.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java" afterPath="$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java" afterPath="$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPark.java" afterPath="$PROJECT_DIR$/src/test/java/TestPark.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,147 +24,33 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TestCarnivorePaddock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="21" column="107" lean-forward="false" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHerbivorePaddock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="21" column="102" lean-forward="false" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Dinosaur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-              <folding>
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pterosaur.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="45" column="227" lean-forward="false" selection-start-line="45" selection-start-column="227" selection-end-line="45" selection-end-column="227" />
-              <folding>
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestPterodactylus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestPterodactylus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="397">
+              <caret line="83" column="53" lean-forward="false" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCarnivoreDino.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestCarnivoreDino.java">
+      <file leaf-file-name="Pterosaur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="690">
+              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPark.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestPark.java">
+      <file leaf-file-name="CarnieDino.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/CarnieDino.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHerbivoreDino.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestHerbivoreDino.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="22" column="103" lean-forward="false" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,8 +58,68 @@
       <file leaf-file-name="DinoList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/DinoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pterodactylus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterodactylus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeOfDinosaur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/TypeOfDinosaur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Park.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="701">
+              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HerbieDino.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/HerbieDino.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Food.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Food.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/FoodType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -413,6 +319,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="4565457326000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1362845123" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2558206888" />
       </map>
     </option>
@@ -525,7 +432,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Stegosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Triceratop.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Tyrannosaurus.java" />
@@ -554,8 +460,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Behaviors/ISwim.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinoTests/TestTyrannosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Park.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/Food.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/Spinosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/Stegosaurus.java" />
@@ -566,23 +470,26 @@
         <option value="$PROJECT_DIR$/src/main/java/Dinos/CarnieDino.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/Argentinosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/HerbieDino.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestPterodactylus.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestDimorphodon.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinos/DinoList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinoTests/TestHerbivoreDino.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinoTests/TestCarnivoreDino.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPark.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Practice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Park.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -602,10 +509,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -651,51 +555,15 @@
               <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Paddocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DinoTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FlyingDinoTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jurassicpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jurassicpark" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PaddockTests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -721,13 +589,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in jurassicpark_test">
+  <component name="RunManager" selected="Application.Practice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Practice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jurassicpark_main" />
+      <envs />
     </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -827,26 +709,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestPark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="jurassicpark_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestPark" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -908,19 +770,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestPark" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in jurassicpark_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCarnivoreDino.canGetType" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DinoTests in jurassicpark_test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in jurassicpark_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCarnivoreDino.canGetType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DinoTests in jurassicpark_test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Runner" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Practice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in jurassicpark_test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Practice" />
         <item index="1" class="java.lang.String" itemvalue="Application.Runner" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DinoTests in jurassicpark_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCarnivoreDino.canGetType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestPark" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in jurassicpark_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DinoTests in jurassicpark_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCarnivoreDino.canGetType" />
       </list>
     </recent_temporary>
   </component>
@@ -973,26 +835,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28615385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.248" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330781" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1001,10 +859,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330781" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1043,151 +905,122 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Carnivour.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="480">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Herbivour.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestCarnivoreDino.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1040#1041#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestHerbivoreDino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="103" lean-forward="false" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/FoodType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IAddDinosaurToPaddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/ITransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPterosaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestTriceratop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestStegosaurus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
-          <folding />
+          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Dimorphodon.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/DinoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterodactylus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/ISwim.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Carnivour.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Herbivour.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/FoodType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IAddDinosaurToPaddock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/ITransfer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IFly.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPterosaur.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestTriceratop.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestStegosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Dimorphodon.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviors/ISwim.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/HerbivorePaddock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Stegosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Tyrannosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestSpinosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestTyrannosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestArgentinosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Argentinosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Spinosaurus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Triceratop.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestDimorphodon.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestCarnivoreDino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1040#1041#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/CarnivorePaddock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/HerbivorePaddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1195,152 +1028,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Stegosaurus.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="210">
+          <caret line="21" column="102" lean-forward="false" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Tyrannosaurus.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestSpinosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="91" lean-forward="false" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestTyrannosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestArgentinosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="e#3247#3248#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3336#3337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/FoodType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/TypeOfDinosaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Argentinosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Spinosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="109" lean-forward="false" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/CarnieDino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Triceratop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/HerbieDino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="21" column="107" lean-forward="false" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
           <folding />
         </state>
       </provider>
@@ -1353,137 +1077,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FlyingDinoTests/TestDimorphodon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/DinoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestCarnivorePaddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="21" column="107" lean-forward="false" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestHerbivoreDino.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="189">
           <caret line="22" column="103" lean-forward="false" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinoTests/TestCarnivoreDino.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTests/TestHerbivorePaddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="21" column="102" lean-forward="false" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
+        <state relative-caret-position="270">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterodactylus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlyingDinos/Pterosaur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="45" column="227" lean-forward="false" selection-start-line="45" selection-start-column="227" selection-end-line="45" selection-end-column="227" />
-          <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/CarnieDino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/DinoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Dinosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="83" column="53" lean-forward="false" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/FoodType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/HerbieDino.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinos/TypeOfDinosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
